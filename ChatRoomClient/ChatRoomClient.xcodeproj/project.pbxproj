@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5E1F7071DFAAE63004FB6BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E1F6F51DFAAE63004FB6BF /* AppDelegate.m */; };
+		F5E1F7081DFAAE63004FB6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E1F6F61DFAAE63004FB6BF /* Assets.xcassets */; };
+		F5E1F7091DFAAE63004FB6BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E1F6F71DFAAE63004FB6BF /* LaunchScreen.storyboard */; };
+		F5E1F70A1DFAAE63004FB6BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E1F6F91DFAAE63004FB6BF /* Main.storyboard */; };
+		F5E1F70B1DFAAE63004FB6BF /* ClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E1F6FC1DFAAE63004FB6BF /* ClientViewController.m */; };
+		F5E1F70C1DFAAE63004FB6BF /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E1F6FE1DFAAE63004FB6BF /* GCDAsyncSocket.m */; };
+		F5E1F70E1DFAAE63004FB6BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E1F7001DFAAE63004FB6BF /* main.m */; };
+		F5E1F7101DFAAE63004FB6BF /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E1F7041DFAAE63004FB6BF /* SettingViewController.m */; };
+		F5E1F7111DFAAE63004FB6BF /* STConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E1F7061DFAAE63004FB6BF /* STConfig.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5F530B91DF9364F005BB940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F530971DF9364F005BB940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F5309E1DF9364F005BB940;
+			remoteInfo = AsyncSocketDemo;
+		};
+		F5F530C41DF9364F005BB940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F530971DF9364F005BB940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F5309E1DF9364F005BB940;
+			remoteInfo = AsyncSocketDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5E1F6F41DFAAE63004FB6BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5E1F6F51DFAAE63004FB6BF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5E1F6F61DFAAE63004FB6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5E1F6F81DFAAE63004FB6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5E1F6FA1DFAAE63004FB6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5E1F6FB1DFAAE63004FB6BF /* ClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientViewController.h; sourceTree = "<group>"; };
+		F5E1F6FC1DFAAE63004FB6BF /* ClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientViewController.m; sourceTree = "<group>"; };
+		F5E1F6FD1DFAAE63004FB6BF /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		F5E1F6FE1DFAAE63004FB6BF /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		F5E1F7001DFAAE63004FB6BF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5E1F7031DFAAE63004FB6BF /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		F5E1F7041DFAAE63004FB6BF /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		F5E1F7051DFAAE63004FB6BF /* STConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STConfig.h; sourceTree = "<group>"; };
+		F5E1F7061DFAAE63004FB6BF /* STConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STConfig.m; sourceTree = "<group>"; };
+		F5F5309F1DF9364F005BB940 /* ChatRoomClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatRoomClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F530B81DF9364F005BB940 /* ChatRoomClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatRoomClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F530C31DF9364F005BB940 /* ChatRoomClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatRoomClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5F5309C1DF9364F005BB940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F530B51DF9364F005BB940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F530C01DF9364F005BB940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5E1F6F31DFAAE63004FB6BF /* ChatRoomClient */ = {
+			isa = PBXGroup;
+			children = (
+				F5E1F7121DFAB060004FB6BF /* App */,
+				F5E1F7141DFAB0DD004FB6BF /* Classes */,
+				F5E1F7131DFAB0C3004FB6BF /* Lib */,
+			);
+			path = ChatRoomClient;
+			sourceTree = "<group>";
+		};
+		F5E1F7121DFAB060004FB6BF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F5E1F6F41DFAAE63004FB6BF /* AppDelegate.h */,
+				F5E1F6F51DFAAE63004FB6BF /* AppDelegate.m */,
+				F5E1F6F61DFAAE63004FB6BF /* Assets.xcassets */,
+				F5E1F6F71DFAAE63004FB6BF /* LaunchScreen.storyboard */,
+				F5E1F6F91DFAAE63004FB6BF /* Main.storyboard */,
+				F5E1F7001DFAAE63004FB6BF /* main.m */,
+				F5E1F7051DFAAE63004FB6BF /* STConfig.h */,
+				F5E1F7061DFAAE63004FB6BF /* STConfig.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		F5E1F7131DFAB0C3004FB6BF /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				F5E1F6FD1DFAAE63004FB6BF /* GCDAsyncSocket.h */,
+				F5E1F6FE1DFAAE63004FB6BF /* GCDAsyncSocket.m */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		F5E1F7141DFAB0DD004FB6BF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5E1F6FB1DFAAE63004FB6BF /* ClientViewController.h */,
+				F5E1F6FC1DFAAE63004FB6BF /* ClientViewController.m */,
+				F5E1F7031DFAAE63004FB6BF /* SettingViewController.h */,
+				F5E1F7041DFAAE63004FB6BF /* SettingViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F5F530961DF9364F005BB940 = {
+			isa = PBXGroup;
+			children = (
+				F5E1F6F31DFAAE63004FB6BF /* ChatRoomClient */,
+				F5F530A01DF9364F005BB940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5F530A01DF9364F005BB940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F5309F1DF9364F005BB940 /* ChatRoomClient.app */,
+				F5F530B81DF9364F005BB940 /* ChatRoomClientTests.xctest */,
+				F5F530C31DF9364F005BB940 /* ChatRoomClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5F5309E1DF9364F005BB940 /* ChatRoomClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F530CC1DF9364F005BB940 /* Build configuration list for PBXNativeTarget "ChatRoomClient" */;
+			buildPhases = (
+				F5F5309B1DF9364F005BB940 /* Sources */,
+				F5F5309C1DF9364F005BB940 /* Frameworks */,
+				F5F5309D1DF9364F005BB940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatRoomClient;
+			productName = AsyncSocketDemo;
+			productReference = F5F5309F1DF9364F005BB940 /* ChatRoomClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5F530B71DF9364F005BB940 /* ChatRoomClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F530CF1DF9364F005BB940 /* Build configuration list for PBXNativeTarget "ChatRoomClientTests" */;
+			buildPhases = (
+				F5F530B41DF9364F005BB940 /* Sources */,
+				F5F530B51DF9364F005BB940 /* Frameworks */,
+				F5F530B61DF9364F005BB940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F530BA1DF9364F005BB940 /* PBXTargetDependency */,
+			);
+			name = ChatRoomClientTests;
+			productName = AsyncSocketDemoTests;
+			productReference = F5F530B81DF9364F005BB940 /* ChatRoomClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5F530C21DF9364F005BB940 /* ChatRoomClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F530D21DF9364F005BB940 /* Build configuration list for PBXNativeTarget "ChatRoomClientUITests" */;
+			buildPhases = (
+				F5F530BF1DF9364F005BB940 /* Sources */,
+				F5F530C01DF9364F005BB940 /* Frameworks */,
+				F5F530C11DF9364F005BB940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F530C51DF9364F005BB940 /* PBXTargetDependency */,
+			);
+			name = ChatRoomClientUITests;
+			productName = AsyncSocketDemoUITests;
+			productReference = F5F530C31DF9364F005BB940 /* ChatRoomClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5F530971DF9364F005BB940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lixiaohu;
+				TargetAttributes = {
+					F5F5309E1DF9364F005BB940 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T7J725GGM9;
+						ProvisioningStyle = Automatic;
+					};
+					F5F530B71DF9364F005BB940 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5F5309E1DF9364F005BB940;
+					};
+					F5F530C21DF9364F005BB940 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5F5309E1DF9364F005BB940;
+					};
+				};
+			};
+			buildConfigurationList = F5F5309A1DF9364F005BB940 /* Build configuration list for PBXProject "ChatRoomClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5F530961DF9364F005BB940;
+			productRefGroup = F5F530A01DF9364F005BB940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5F5309E1DF9364F005BB940 /* ChatRoomClient */,
+				F5F530B71DF9364F005BB940 /* ChatRoomClientTests */,
+				F5F530C21DF9364F005BB940 /* ChatRoomClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5F5309D1DF9364F005BB940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E1F70A1DFAAE63004FB6BF /* Main.storyboard in Resources */,
+				F5E1F7081DFAAE63004FB6BF /* Assets.xcassets in Resources */,
+				F5E1F7091DFAAE63004FB6BF /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F530B61DF9364F005BB940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F530C11DF9364F005BB940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5F5309B1DF9364F005BB940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E1F70C1DFAAE63004FB6BF /* GCDAsyncSocket.m in Sources */,
+				F5E1F7071DFAAE63004FB6BF /* AppDelegate.m in Sources */,
+				F5E1F70E1DFAAE63004FB6BF /* main.m in Sources */,
+				F5E1F70B1DFAAE63004FB6BF /* ClientViewController.m in Sources */,
+				F5E1F7111DFAAE63004FB6BF /* STConfig.m in Sources */,
+				F5E1F7101DFAAE63004FB6BF /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F530B41DF9364F005BB940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F530BF1DF9364F005BB940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5F530BA1DF9364F005BB940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F5309E1DF9364F005BB940 /* ChatRoomClient */;
+			targetProxy = F5F530B91DF9364F005BB940 /* PBXContainerItemProxy */;
+		};
+		F5F530C51DF9364F005BB940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F5309E1DF9364F005BB940 /* ChatRoomClient */;
+			targetProxy = F5F530C41DF9364F005BB940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5E1F6F71DFAAE63004FB6BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E1F6F81DFAAE63004FB6BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F5E1F6F91DFAAE63004FB6BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E1F6FA1DFAAE63004FB6BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5F530CA1DF9364F005BB940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5F530CB1DF9364F005BB940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5F530CD1DF9364F005BB940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T7J725GGM9;
+				INFOPLIST_FILE = ChatRoomClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.AsyncSocketDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5F530CE1DF9364F005BB940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T7J725GGM9;
+				INFOPLIST_FILE = ChatRoomClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.AsyncSocketDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5F530D01DF9364F005BB940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChatRoomClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.AsyncSocketDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatRoomClient.app/ChatRoomClient";
+			};
+			name = Debug;
+		};
+		F5F530D11DF9364F005BB940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChatRoomClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.AsyncSocketDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatRoomClient.app/ChatRoomClient";
+			};
+			name = Release;
+		};
+		F5F530D31DF9364F005BB940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChatRoomClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.AsyncSocketDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AsyncSocketDemo;
+			};
+			name = Debug;
+		};
+		F5F530D41DF9364F005BB940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChatRoomClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.AsyncSocketDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AsyncSocketDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5F5309A1DF9364F005BB940 /* Build configuration list for PBXProject "ChatRoomClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F530CA1DF9364F005BB940 /* Debug */,
+				F5F530CB1DF9364F005BB940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F530CC1DF9364F005BB940 /* Build configuration list for PBXNativeTarget "ChatRoomClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F530CD1DF9364F005BB940 /* Debug */,
+				F5F530CE1DF9364F005BB940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F530CF1DF9364F005BB940 /* Build configuration list for PBXNativeTarget "ChatRoomClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F530D01DF9364F005BB940 /* Debug */,
+				F5F530D11DF9364F005BB940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F530D21DF9364F005BB940 /* Build configuration list for PBXNativeTarget "ChatRoomClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F530D31DF9364F005BB940 /* Debug */,
+				F5F530D41DF9364F005BB940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5F530971DF9364F005BB940 /* Project object */;
+}
